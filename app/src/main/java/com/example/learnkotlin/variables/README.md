@@ -14,12 +14,15 @@
 - use UPPERCASE for constant variable names
 
 ## Var
-- mutable variable
+- Mutable variable
 - `var variableName = variableValue`: declare var with value
 - `var variableName:variableType? = null:` declare var without specific value
 - The value of var can be assigned multiple times
 
 ## Val
-- immutable variable
+- Immutable variable
 - `val variableName = variableValue:` declare val with value
 - The value and type of val can't be changed
+
+## Data-Type
+- Defines the value that variable can store
