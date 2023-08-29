@@ -8,4 +8,7 @@ fun main(args: Array<String>) {
     println(b)
     a = 7
     println(a)
+
+    val year = 2023
+    println(year)
 }
