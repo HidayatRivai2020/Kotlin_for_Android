@@ -23,3 +23,40 @@
   - Naming Convention
   - Var
   - Val
+  - Data-Type
+    - Boolean
+    - Character
+    - Byte
+    - Short
+    - Int
+    - Long
+    - Float
+    - Double
+    - String
+      - String Method
+    - Array
+      - Array Method
+      - Array Properties
+  - Type Conversion
+  - Console Input
+- Collection
+  - List
+  - ArrayList
+    - ArrayList Properties
+    - ArrayList Method
+  - Set
+  - Map
+- Operations
+  - Arithmetic Operator
+  - Assignment Operator
+  - Unary Operator
+  - Relational Operator
+  - Conditional Operator
+  - Operator Precedent
+  - Range To & In
+- Control Flow
+  - If Else
+    - Ladder
+    - Nested
+  - When
+- Loops

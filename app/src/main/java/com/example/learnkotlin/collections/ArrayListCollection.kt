@@ -7,24 +7,31 @@ fun main(args: Array<String>) {
     age.add(5)
     age.add(1, 7)
 
-    println("---------------------------------------------------------")
+    println("----------------Print ArrayList using []----------------")
     for (index in age.indices) {
         println("ArrayList at index $index has element ${age[index]}")
     }
 
     var cars = arrayListOf<Any>("BMW", "VW", "Mercedes", "Ferrari", 123)
 
-    println("---------------------------------------------------------")
+    println("----------------Print ArrayList using get(index)----------------")
     for (index in cars.indices) {
         println("ArrayList at index $index has element ${cars.get(index)}")
     }
 
-    cars.add("Ford")
+    cars.add('a')
+    cars.add(false)
+    cars.add(2.5)
+    cars.add('a')
     cars.remove("VW")
     cars.removeAt(0)
 
-    println("---------------------------------------------------------")
+    println("----------------Print ArrayList with Any Type----------------")
     for (index in cars.indices) {
         println("ArrayList at index $index has element ${cars.get(index)}")
     }
+    println("size = ${cars.size}")
+    println("first = ${cars.first()}")
+    println("last = ${cars.last()}")
+
 }

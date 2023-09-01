@@ -126,3 +126,7 @@
 - `toString()` : convert data-type into String
 - `toBoolean()` : convert data-type into Boolean
 - `toChar()` : convert data-type into Char
+
+## Console Input
+- Use the data from user input in console and assign it into variable
+- `readline()`
