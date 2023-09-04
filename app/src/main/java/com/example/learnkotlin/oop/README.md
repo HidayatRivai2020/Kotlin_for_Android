@@ -55,7 +55,7 @@
 - Similar with the constructor from java
 - Allow initialization of variables and some logic to the class
 - Using `constructor` keyword
-- Can create multiple constuctor with different parameters
+- Can create multiple constructor with different parameters
 
 ## Encapsulation
 - Using `private` so updating the `properties` value will be limited
@@ -63,3 +63,17 @@
 - setter : use `set` to set `properties`
 - if `set` private, then object only can get te value
 - getter can only use the same modifier with properties
+
+## Inheritance
+- Used when there is relationship between objects
+- All classes can inherit variables and methods from another class
+- Classes are `final` by default, so need to add `open` keyword when create a new class
+- subclass can't inherit properties and method from `final` class
+- subclass can inherit `public` and `protected` properties and method from superclass
+- If superclass has primary constructor, subclass need to implement primary constructor
+
+### Function Overriding 
+- Create a function with the same name, parameter, and return type from subclass with superclass
+- the superclass method must use `open` keyword
+- the subclass method must use `override` keyword
+- `super` : keyword to use the class from super class
