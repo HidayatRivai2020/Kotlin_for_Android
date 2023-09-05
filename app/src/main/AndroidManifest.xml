@@ -13,13 +13,28 @@
         android:theme="@style/Theme.LearnKotlin"
         tools:targetApi="31">
         <activity
-            android:name=".android_UI.ActivityTableLayout"
+            android:name=".android_UI_widgets.ImageViewActivity"
             android:exported="false" />
         <activity
-            android:name=".android_UI.ActivityRelativeLayout"
+            android:name=".android_UI_text.EditTextActivity"
             android:exported="false" />
         <activity
-            android:name=".android_UI.ActivityLinearLayout"
+            android:name=".android_UI_button.ButtonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".android_UI_text.TextViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".android_UI_layouts.ConstraintLayoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".android_UI_layouts.TableLayoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".android_UI_layouts.RelativeLayoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".android_UI_layouts.LinearLayoutActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

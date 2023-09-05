@@ -1,12 +1,12 @@
-package com.example.learnkotlin.android_UI
+package com.example.learnkotlin.android_UI_layouts
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.learnkotlin.R
 
-class ActivityTableLayout : AppCompatActivity() {
+class RelativeLayoutActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_table_layout)
+        setContentView(R.layout.activity_relative_layout)
     }
 }
