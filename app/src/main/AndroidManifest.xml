@@ -13,6 +13,18 @@
         android:theme="@style/Theme.LearnKotlin"
         tools:targetApi="31">
         <activity
+            android:name=".android_UI_contains.SpinnerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".android_UI_button.ToggleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".android_UI_button.RadioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".android_UI_button.CheckBoxActivity"
+            android:exported="false" />
+        <activity
             android:name=".android_UI_widgets.ImageViewActivity"
             android:exported="false" />
         <activity

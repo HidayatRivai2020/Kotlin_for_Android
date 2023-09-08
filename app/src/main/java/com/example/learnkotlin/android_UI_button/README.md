@@ -1,6 +1,9 @@
 # Button
-- Represents a push button
-- Can be clicked or pressed by the user to perform an action
+- `button` : Can be clicked or pressed by the user to perform an action
+- `checkBox` : type of two state button either unchecked or checked
+- `radio button` : select one option from a group
+- `radio group` : group of radio button
+- `toggle group` : button to change a setting between 2 states
 
 ## All Button Properties
 - `backgroundTint` : background color
