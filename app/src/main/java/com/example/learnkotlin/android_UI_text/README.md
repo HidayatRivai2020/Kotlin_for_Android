@@ -5,12 +5,13 @@
 ## All Text Properties
 - `background` : background color
 - `id` : unique id
-- `visibility` : visibility
 - `layout_height` : height of text view
 - `layout_width` : width of text view
 - `text` : text that will be displayed to user
 - `textColor` : text color
 - `textSize` : text size
+- `visibility` : visibility
+
 
 ## All Text Method
 - `isVisible` : return the visibility

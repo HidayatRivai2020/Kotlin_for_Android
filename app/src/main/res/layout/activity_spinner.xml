@@ -4,9 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".android_UI_contains.SpinnerActivity">
-
-
+    tools:context=".android_UI_containers.SpinnerActivity">
 
     <TextView
         android:id="@+id/textView13"

@@ -1,4 +1,4 @@
-package com.example.learnkotlin.android_UI_contains
+package com.example.learnkotlin.android_UI_containers
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -16,7 +16,6 @@ class SpinnerActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_spinner)
-
 
         spinner = findViewById(R.id.spinner)
         result = findViewById(R.id.textView13)

@@ -1,9 +1,5 @@
-# Button
-- `button` : Can be clicked or pressed by the user to perform an action
-- `checkBox` : type of two state button either unchecked or checked
-- `radio button` : select one option from a group
-- `radio group` : group of radio button
-- `toggle group` : button to change a setting between 2 states
+# Containers
+- `Spinner` : Can be clicked or pressed by the user to perform an action
 
 ## All Button Properties
 - `background` : background color
@@ -11,21 +7,16 @@
 - `id` : unique id
 - `layout_height` : height of button
 - `layout_width` : width of button
+- `min_height` : minimal height of object
 - `visibility` : visibility
-
-### All button except radioGroup
-- `text` : text that will be displayed to user
-- `textColor` : text color
-- `textSize` : text size
 
 ## All Button Method
 - `isVisible` : visibility
 - `setBackgorundColor(color: int)` : set the value of property `background`
-- `setOnClickListener{}` : execute block of commands when textView clicked
-- `setTextColor(color: int)` : set the value of property `textColor`
+- `onItemSelectedListener{}` : execute block of commands when textView clicked
 
-## Button Palette Values
-- background | backgroundTint | textColor
+## Containers Palette Values
+- background | backgroundTint
   - `Color.*` : int value of color in color class
   - int
 - id : String
@@ -35,9 +26,21 @@
     - `dp` : device independent pixel
 - text : string
 - textSize
-  - `dp`
-  - `sp`
+    - `dp`
+    - `sp`
 - visibility
   - `visible` : show the value in the correct position
   - `sp` : in the correct position but not showing the value
   - `gone` : not in the correct position and not showing the value
+
+## How To Set The Value of Spinner
+- Create an Array of values in `String.xml`
+- Implement `OnItemSelectedListener` from `AdapterClass`
+- Find by id the `spinner`
+- Set Spinner `OnItemSelectedListener` with `this`
+- Create `ArrayAdapter` from `resource`
+- set the `spinner adapter` with the new `adapter`
+
+## ArrayAdapter Method
+- `createFromResource(context, textArrayResId, TextViewResId)` : create new array adapter from resource
+- `setDropDownViewResource(resourceId)` : create the view for dropdown from resource

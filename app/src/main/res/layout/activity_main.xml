@@ -6,22 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="wrap_content"
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="409dp"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        android:visibility="visible"
-        tools:layout_editor_absoluteX="178dp"
-        tools:layout_editor_absoluteY="146dp" />
-
-    <EditText
-        android:id="@+id/editTextText6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:text="Name"
-        tools:layout_editor_absoluteX="104dp"
-        tools:layout_editor_absoluteY="219dp" />
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="109dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="526dp"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
