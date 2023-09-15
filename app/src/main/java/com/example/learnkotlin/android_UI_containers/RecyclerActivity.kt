@@ -22,7 +22,7 @@ class RecyclerActivity : AppCompatActivity() {
 
         recyclerView = findViewById(R.id.recycleView)
 
-        recyclerView.layoutManager = LinearLayoutManager(this@MainActivity)
+        recyclerView.layoutManager = LinearLayoutManager(this@RecyclerActivity)
 
         countryNameList.add("United Kingdom")
         countryNameList.add("Germany")
@@ -36,7 +36,7 @@ class RecyclerActivity : AppCompatActivity() {
         imageList.add(R.drawable.germany)
         imageList.add(R.drawable.japan)
 
-        countriesAdapter = CountriesAdapter(countryNameList, detailList, imageList, this@MainActivity)
+        countriesAdapter = CountriesAdapter(countryNameList, detailList, imageList, this@RecyclerActivity)
         recyclerView.adapter = countriesAdapter
     }
 }

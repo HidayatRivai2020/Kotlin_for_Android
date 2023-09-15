@@ -12,9 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LearnKotlin"
         tools:targetApi="31">
-        <activity
-            android:name=".android_UI_containers.RecyclerActivity"
-            android:exported="false" />
+<!--        <activity-->
+<!--            android:name=".android_UI_legacy.GridViewActivity"-->
+<!--            android:exported="false" />-->
+<!--        <activity-->
+<!--            android:name=".android_UI_containers.RecyclerActivity"-->
+<!--            android:exported="false" /> -->
         <!-- <activity -->
         <!-- android:name=".android_UI_legacy.ListViewActivity" -->
         <!-- android:exported="false" /> -->

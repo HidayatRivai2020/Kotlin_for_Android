@@ -1,5 +1,6 @@
 # Containers
 - `Spinner` : Can be clicked or pressed by the user to perform an action
+- `RecyclerView` : Advance version of ListView with improved performance and other benefits
 
 ## All Button Properties
 - `background` : background color
