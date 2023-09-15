@@ -1,6 +1,9 @@
 # Containers
 - `Spinner` : Can be clicked or pressed by the user to perform an action
 - `RecyclerView` : Advance version of ListView with improved performance and other benefits
+- `ScrollView` : Scrollable views when the layout content longer than the height of device (vertically)
+- `HorizontalScrollView` : Scrollable views when the layout content longer than the width of device (Horizontally)
+
 
 ## All Button Properties
 - `background` : background color

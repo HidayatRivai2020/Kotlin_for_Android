@@ -1,5 +1,6 @@
 # Widget
 - `ImageView` : UI element to display image
+- `WebView` : UI element to display content from the web
 
 ## All Text Properties
 - `background` : background image
