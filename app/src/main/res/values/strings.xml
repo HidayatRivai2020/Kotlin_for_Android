@@ -22,6 +22,7 @@
     <string name="togglebutton">ToggleButton</string>
     <string name="show_toast_message">Show Toast Message</string>
     <string name="show_snackbar_message">Show Snackbar Message</string>
+    <string name="show_dialog_message">show dialog message</string>
 
     <string-array name="countries">
         <item>England</item>

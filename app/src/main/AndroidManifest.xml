@@ -13,44 +13,56 @@
         android:theme="@style/Theme.LearnKotlin"
         tools:targetApi="31">
         <activity
-            android:name=".user_interaction.ToastActivity"
+            android:name=".android_UI_containers.RecyclerActivity"
             android:exported="false" />
-        <activity
-            android:name=".android_UI_containers.SpinnerActivity"
-            android:exported="false" />
-        <activity
-            android:name=".android_UI_button.ToggleActivity"
-            android:exported="false" />
-        <activity
-            android:name=".android_UI_button.RadioActivity"
-            android:exported="false" />
-        <activity
-            android:name=".android_UI_button.CheckBoxActivity"
-            android:exported="false" />
-        <activity
-            android:name=".android_UI_widgets.ImageViewActivity"
-            android:exported="false" />
-        <activity
-            android:name=".android_UI_text.EditTextActivity"
-            android:exported="false" />
-        <activity
-            android:name=".android_UI_button.ButtonActivity"
-            android:exported="false" />
-        <activity
-            android:name=".android_UI_text.TextViewActivity"
-            android:exported="false" />
-        <activity
-            android:name=".android_UI_layouts.ConstraintLayoutActivity"
-            android:exported="false" />
-        <activity
-            android:name=".android_UI_layouts.TableLayoutActivity"
-            android:exported="false" />
-        <activity
-            android:name=".android_UI_layouts.RelativeLayoutActivity"
-            android:exported="false" />
-        <activity
-            android:name=".android_UI_layouts.LinearLayoutActivity"
-            android:exported="false" />
+        <!-- <activity -->
+        <!-- android:name=".android_UI_legacy.ListViewActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".user_interaction.SnackbarActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".user_interaction.DialogActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".user_interaction.ToastActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".android_UI_containers.SpinnerActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".android_UI_button.ToggleActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".android_UI_button.RadioActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".android_UI_button.CheckBoxActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".android_UI_widgets.ImageViewActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".android_UI_text.EditTextActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".android_UI_button.ButtonActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".android_UI_text.TextViewActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".android_UI_layouts.ConstraintLayoutActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".android_UI_layouts.TableLayoutActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".android_UI_layouts.RelativeLayoutActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".android_UI_layouts.LinearLayoutActivity" -->
+        <!-- android:exported="false" /> -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
