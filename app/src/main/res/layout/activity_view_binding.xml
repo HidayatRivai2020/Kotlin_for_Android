@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".android_UI_texts.EditTextActivity">
+    tools:context=".view_binding.ViewBindingActivity"
+    android:orientation="vertical">
 
     <EditText
-        android:id="@+id/editTextText5"
+        android:id="@+id/inputVB"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -17,16 +17,15 @@
         android:text="Name" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/btnVB"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Button" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/txtVB"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:scrollbarSize="4dp"
-        android:text="TextView"
-        android:textSize="24sp" />
+        android:text="TextView" />
+
 </LinearLayout>

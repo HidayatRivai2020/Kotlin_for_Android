@@ -7,6 +7,10 @@ android {
     namespace 'com.example.learnkotlin'
     compileSdk 33
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId "com.example.learnkotlin"
         minSdk 24

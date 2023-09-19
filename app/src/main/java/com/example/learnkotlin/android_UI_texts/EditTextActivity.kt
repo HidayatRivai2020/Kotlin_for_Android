@@ -1,4 +1,4 @@
-package com.example.learnkotlin.android_UI_text
+package com.example.learnkotlin.android_UI_texts
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

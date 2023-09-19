@@ -4,6 +4,7 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
         android:allowBackup="true"
@@ -16,14 +17,36 @@
         android:theme="@style/Theme.LearnKotlin"
         tools:targetApi="31">
         <activity
-            android:name=".android_UI_widgets.WebViewActivity"
+            android:name=".view_binding.ViewBindingActivity"
             android:exported="false" />
-        <activity
-            android:name=".android_UI_containers.HorizontalScrollViewActivity"
-            android:exported="false" />
-        <activity
-            android:name=".android_UI_containers.ScrollViewActivity"
-            android:exported="false" /> <!-- <activity -->
+        <!-- <activity -->
+        <!-- android:name=".broadcast.BroadcastActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".services.ServicesActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".lifecycle.AppFragmentActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".lifecycle.SecondLifecycleActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".lifecycle.FirstLifecycleActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".lifecycle.AppLifecycleActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".android_UI_widgets.WebViewActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".android_UI_containers.HorizontalScrollViewActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".android_UI_containers.ScrollViewActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
         <!-- android:name=".android_UI_legacy.GridViewActivity" -->
         <!-- android:exported="false" /> -->
         <!-- <activity -->
@@ -78,7 +101,7 @@
         <!-- android:name=".android_UI_layouts.LinearLayoutActivity" -->
         <!-- android:exported="false" /> -->
         <activity
-            android:name=".MainActivity"
+            android:name=".services.ServicesActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

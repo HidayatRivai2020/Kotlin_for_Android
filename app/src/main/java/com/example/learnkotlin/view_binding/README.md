@@ -1,0 +1,2 @@
+# ViewBinding
+- replaces `findViewById()`
