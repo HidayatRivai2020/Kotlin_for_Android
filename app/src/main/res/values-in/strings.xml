@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnKotlin</string>
+    <string name="show_toast_message">Tampilkan Pesan Toast</string>
+    <string name="good_morning">Selamat Pagi</string>
+</resources>

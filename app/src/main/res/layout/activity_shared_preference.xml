@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="data_saving.SharedPreferencesActivity" >
+    tools:context=".data_saving.SharedPreferencesActivity" >
 
     <TextView
         android:id="@+id/spTextView"

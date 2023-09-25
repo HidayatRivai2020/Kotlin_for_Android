@@ -1,28 +1,29 @@
 <resources>
     <string name="app_name">LearnKotlin</string>
-    <string name="textview">TextView</string>
-    <string name="button">Button</string>
-    <string name="save">Save</string>
-    <string name="hello_world">Hello World</string>
-    <string name="password">Password</string>
-    <string name="description">Description</string>
-    <string name="image">Image</string>
-    <string name="do_you_want_it">Do you want it?</string>
-    <string name="dolls">Dolls</string>
-    <string name="cars">Cars</string>
-    <string name="robots">Robots</string>
-    <string name="result">Result</string>
-    <string name="male">Male</string>
-    <string name="female">Female</string>
-    <string name="select_your_gender">Select Your Gender</string>
-    <string name="choose_your_job">Choose Your Job</string>
-    <string name="farmer">Farmer</string>
-    <string name="fisher">Fisher</string>
-    <string name="doctor">Doctor</string>
-    <string name="togglebutton">ToggleButton</string>
+    <string name="textview" translatable="false">TextView</string>
+    <string name="button" translatable="false">Button</string>
+    <string name="save" translatable="false">Save</string>
+    <string name="hello_world" translatable="false">Hello World</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="description" translatable="false">Description</string>
+    <string name="image" translatable="false">Image</string>
+    <string name="do_you_want_it" translatable="false">Do you want it?</string>
+    <string name="dolls" translatable="false">Dolls</string>
+    <string name="cars" translatable="false">Cars</string>
+    <string name="robots" translatable="false">Robots</string>
+    <string name="result" translatable="false">Result</string>
+    <string name="male" translatable="false">Male</string>
+    <string name="female" translatable="false">Female</string>
+    <string name="select_your_gender" translatable="false">Select Your Gender</string>
+    <string name="choose_your_job" translatable="false">Choose Your Job</string>
+    <string name="farmer" translatable="false">Farmer</string>
+    <string name="fisher" translatable="false">Fisher</string>
+    <string name="doctor" translatable="false">Doctor</string>
+    <string name="togglebutton" translatable="false">ToggleButton</string>
     <string name="show_toast_message">Show Toast Message</string>
-    <string name="show_snackbar_message">Show Snackbar Message</string>
-    <string name="show_dialog_message">show dialog message</string>
+    <string name="show_snackbar_message" translatable="false">Show Snackbar Message</string>
+    <string name="show_dialog_message" translatable="false">show dialog message</string>
+    <string name="good_morning">Good Morning</string>
 
     <string-array name="countries">
         <item>England</item>
